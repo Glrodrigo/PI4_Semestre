@@ -1,4 +1,3 @@
-//import Container from "./Container"
 
 function Footer(){
     return(

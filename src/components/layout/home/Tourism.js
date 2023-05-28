@@ -16,7 +16,7 @@ import download_icon from "../../../img/download_icon.jpg"
 const Tourism = () => {
   return (
     <div>
-      <h1 className="text-6xl text-center font-bold">Principais Atividades</h1>
+      <h1 className="text-6xl text-center font-bold p-8">Principais Atividades</h1>
       <header className="bg-red-950 text-white py-1">
         <div className="container mx-auto px-4">
           
