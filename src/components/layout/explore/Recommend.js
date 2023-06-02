@@ -5,12 +5,12 @@ import train from "../../../img/train.jpeg"
 import square from "../../../img/square.jpg"
 import mobile from "../../../img/mobile.jpeg"
 import Card from "../../../functions/Card";
-import location from "../../../img/locationicon.jpg";
-import map from "../../../img/map.png";
-import calendar from "../../../img/calendar.jpg";
-import arquivo from "../../../img/arquivo.jpg"
-import phone from "../../../img/phone.jpg"
-import download_icon from "../../../img/download_icon.jpg"
+import location from "../../../img/locationicon.svg";
+import map from "../../../img/map.svg";
+import calendar from "../../../img/calendar.svg";
+import arquivo from "../../../img/arquivo.svg"
+import phone from "../../../img/phone.svg"
+import download_icon from "../../../img/download_icon.svg"
 
 const Recommend = () => {
   return (
@@ -23,7 +23,7 @@ const Recommend = () => {
           <h2 className="text-3xl font-bold mb-4 text-red-950">Populares</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <Card title= "Pontos" icon={location} description="Pontos" image={justiliano}/>           
-            <Card title= "Pontos" icon={map} description="Rotas" image={cidade}/>
+            <Card title= "Pontos" icon={map} description="Rotas" image={square}/>
             <Card title= "Pontos" icon={calendar} description="Eventos" image={cisne}/>
           </div>
         </section>
@@ -49,7 +49,7 @@ const Recommend = () => {
           <h2 className="text-3xl font-bold mb-4 text-red-950">Novos</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <Card title= "Pontos" icon={location} description="Pontos" image={justiliano}/>           
-            <Card title= "Pontos" icon={map} description="Rotas" image={cidade}/>
+            <Card title= "Pontos" icon={map} description="Rotas" image={square}/>
             <Card title= "Pontos" icon={calendar} description="Eventos" image={cisne}/>
           </div>
         </section>
