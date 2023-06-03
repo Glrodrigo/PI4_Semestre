@@ -27,15 +27,15 @@ const Tourism = () => {
           <h2 className="text-3xl font-bold mb-4 text-red-950">Explore as Atrações Locais</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <Card title= "Pontos" icon={location} description="Pontos" image={justiliano}/>           
-            <Card title= "Pontos" icon={map} description="Rotas" image={square}/>
-            <Card title= "Pontos" icon={calendar} description="Eventos" image={cisne}/>
+            <Card title= "Rotas" icon={map} description="Rotas" image={square}/>
+            <Card title= "Eventos" icon={calendar} description="Eventos" image={cisne}/>
           </div>
         </section>
         <section className="mb-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          <Card title= "Pontos" icon={arquivo} description="Arquivos" image={train}/>           
-            <Card title= "Pontos" icon={phone} description="Contatos" image={square}/>
-            <Card title= "Pontos" icon={download_icon} description="Aplicativo" image={mobile}/>
+          <Card title= "Arquivos" icon={arquivo} description="Arquivos" image={train}/>           
+            <Card title= "Contatos" icon={phone} description="Contatos" image={square}/>
+            <Card title= "Aplicativo" icon={download_icon} description="Aplicativo" image={mobile}/>
           </div>
         </section>
       </main>

@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from './components/pages/Home.js';
 import Contact from './components/pages/Contact.js';
 import Explore from './components/pages/Explore.js';
+import ResultExplore from './components/pages/ResultExplore.js';
 import Container from './components/layout/Container.js'
 import Navbar from './components/layout/Navbar.js';
 import Footer from './components/layout/Footer.js'
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/explore" element={<Explore />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/result_explore" element={<ResultExplore />} />
         </Routes>
       </Container>  
       <Footer/>
