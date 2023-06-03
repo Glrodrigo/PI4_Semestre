@@ -6,6 +6,7 @@ import Home from './components/pages/Home.js';
 import Contact from './components/pages/Contact.js';
 import Explore from './components/pages/Explore.js';
 import ResultExplore from './components/pages/ResultExplore.js';
+import RoutesApp from './components/pages/RoutesApp.js';
 import Container from './components/layout/Container.js'
 import Navbar from './components/layout/Navbar.js';
 import Footer from './components/layout/Footer.js'
@@ -22,6 +23,7 @@ function App() {
           <Route path="/explore" element={<Explore />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/result_explore" element={<ResultExplore />} />
+          <Route path="/routes_app" element={<RoutesApp />} />
         </Routes>
       </Container>  
       <Footer/>

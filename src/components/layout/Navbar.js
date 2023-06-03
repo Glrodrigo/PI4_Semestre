@@ -18,7 +18,7 @@ function Navbar(){
                <Link to="/explore" className='hover:text-red-600 p-6'>Eventos</Link>
             </>
             <>
-               <Link to="/contact" className='hover:text-red-600 p-6'>Contato</Link>
+               <Link to="/routes_app" className='hover:text-red-600 p-6'>Rotas</Link>
             </>
             </ul>
         </nav>
